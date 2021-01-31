@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Righteous&family=Squada+One&display=swap" rel="stylesheet">
+  
+    <title>Amine Amazzal</title>
+</head>
+<body id="home">
+    <header>
+        <div class="nav">
+            <div class="btnigm">
+                <div class="logo">
+                    <img src="image/logo.png" alt="" srcset="">
+                    
+                </div>
+                <div class="nav-con">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="link-nav">
+                
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#skils">Skils</a></li>
+                        <li><a href="#contact">Contact me</a></li>
+                    </ul>
+                
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <img src="image/me2.jpg" alt="amine amazzal" style="width:100%;">
+        <div class="centered"><i>"Hello world"</i>
+            <h1>Iam A Developer <span> Front End</span></h1>
+        </div>
+      </div>
+      
+    <div id="about" class="first" 
+    data-aos="fade-right">
+        <div class="img">
+            <img src="image/me.png" alt="this is me">
+        </div>
+        <div  class="about" 
+        data-aos="fade-right">
+            <h1>About me</h1>
+            <p>Hi , my full name is mohamed amine amazzal, 
+                iam a front end developer , coding is my life,
+                i have fun if iam coding , iam a 20 years old .
+            </p>
+            <div class="soc">
+                <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="main" id="skils" data-aos="fade-right">
+      
+        <div class="run" 
+        data-aos="fade-right">
+            
+                <img src="image/webd.png" alt=""><br>
+             <b>Web Desinge</b>
+                <p>
+                    I design websites that encompass a multitude of devices, 
+                    delivery methods, and content types. 
+                    Not only for browsers but for all user 
+                    experiences. With a combination of HTML, CSS, 
+                    and JavaScript, including images, streaming video 
+                    or audio and text, I inevitably get the job done.
+                </p>
+            </div>
+
+            <div class="run" 
+            data-aos="fade-right">
+            
+                <img src="image/grd.png" alt=""><br>
+             <b>Graphic desinge</b>
+                <p>
+                    I create visual concepts by hand and computer. 
+                    I communicate ideas to inspire, inform, or captivate 
+                    consumers. I help to make an organization recognizable 
+                    by using a variety of mediums to communicate a particular 
+                    idea or identity to be used in advertising and promotions.
+                </p>
+            </div>
+
+            <div class="run" 
+            data-aos="fade-right">
+            
+                <img src="image/st.png" alt=""><br>
+             <b>Instructor</b>
+                <p>
+                    i have a two years old to learning web desinge and Graphic
+                    desinge , i have a deplome in bakend devloper , launguage what 
+                    i know in HTML/HTML5 , CSS/CSS3 , JAVA SCRIPT , jquery js , 
+                    angular js , c# , boostrap/boustrap4,   PHP , MYSQL,
+                </p>
+            </div>
+
+            
+            <div class="run" 
+            data-aos="fade-right">
+            
+                <img src="image/lng.png" alt=""><br>
+             <b>Lang / place</b>
+                <p>
+                    what lang i use ? <br>
+                    - language what i use is english 90%,  france 70%, and arabic 100%,
+                    i from morroco , i life in agadir souss massa daraa,
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+  
+    <section data-aos="fade-right">
+       
+        
+        <div id="contact" class="container1" >
+            <h1>Contact Me</h1>
+          <form action="https://formspree.io/f/mzbkwbed" method="POST" id="my-form">
+      
+            <div class="form-group">
+              <label for="firstName"> First Name</label>
+              <input type="text" id="firstName" name="firstName">
+            </div>
+      
+            <div class="form-group">
+              <label for="latsName">Last Name</label>
+              <input type="text" id="lastName" name="lastName">
+            </div>
+      
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email">
+            </div>
+      
+            <div class="form-group">
+              <label for="massage">Massage</label>
+              <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+            </div>
+      
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div id="status"></div>
+      </section>
+
+
+
+      <div class="copyr">
+          <div class="right">
+              <small>Copyright <i class="fas fa-copyright"></i>2021 Amine Amazzal</small>
+          </div>
+      </div>
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+  <script src="js/nav.js"></script>
+ <script src="jquery.min.js"></script>
+ <script>
+     $(document).ready(function(){
+    $(".fa-bars").click(function(){
+        $(".link-nav").slideToggle(1000);
+    });
+});
+ </script>
+</body>
+</html>
