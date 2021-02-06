@@ -78,6 +78,9 @@ float: left;
     font-family: 'Righteous', cursive;
     
 }
+  .container1{
+    width:auto;
+  }
 .first .about h1{
     font-size: 60px;
     color: #fe2083;
@@ -303,6 +306,9 @@ float: left;
 
 }
 @media only screen and (max-width: 650px){
+       body{
+     overflow-x: hidden;
+   }
     .main{
         display: block;
     }
