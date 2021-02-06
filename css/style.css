@@ -235,7 +235,9 @@ float: left;
 
       color: #c00060;
   }
-
+  .container1{
+    width:auto;
+  }
   @keyframes status {
     0% {
       opacity: 1;
@@ -315,6 +317,9 @@ float: left;
   }
 }
 @media only screen and (max-width: 930px){
+   body{
+     overflow-x: hidden;
+   }
   .nav-con .fas{
     display: block;
   }
@@ -324,6 +329,7 @@ float: left;
   }
   .nav .link-nav{
     display: none;
+    
   }
   header .nav{
     margin: 10px;
